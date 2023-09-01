@@ -1,0 +1,88 @@
+/* Header Search City */
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.main{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.bg-color{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+.search-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2F2E2F;
+    padding: 20px;
+    width: 45%;
+    border-radius: 10px;
+
+}
+.search-container>input:focus{
+    outline: none;
+}
+.search-container>button:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.search-input{
+    background-color: transparent;
+    color: white;
+    border: 1.5px solid white;
+    padding: 0.5rem;
+    border-radius: 6px;
+    width: 30%;
+    font-size: 1rem;
+}
+
+.search-btn{
+    background-color: white;
+    padding: 7px 40px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    
+}
+.degree-container{
+    display: flex;
+    align-items: center;
+}
+
+/* Weather °F or °C  section*/
+.second-container{
+    margin-top: 50px;
+    display: flex;
+    color: white;
+    background-color: #2F2E2F;
+    width: 45%;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+}
+.info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Weather details  */
+.details-container{
+    display: flex;
+    
+}
+
+
+

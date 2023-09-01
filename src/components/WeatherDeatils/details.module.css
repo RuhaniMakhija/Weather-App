@@ -1,0 +1,50 @@
+.section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 45%;
+    margin: auto;
+    gap: 2.5rem;
+
+}
+.card{
+    background-color: #2F2E2F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+
+.description_card-icon{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 12px;
+
+}
+
+.description_card-icon>small{
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:1024px){
+    .section_des{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
